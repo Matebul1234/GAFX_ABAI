@@ -1,6 +1,7 @@
 // Navbar.jsx
 import React, { useState, useEffect } from 'react';
 import '../assets/navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
     return (
         <>
 
-            <div className="navbar sticky-top navbar-expand-lg bg-dark">
+            <div className="navbar sticky-top navbar-expand-lg bg444">
                 <div className="container">
                     <a className="navbar-brand" href="#">Logo</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,18 +37,18 @@ const Navbar = () => {
                                 <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a></li>
+                                <a className="nav-link" href={`/sponser`}>About</a>
+                                
+                            </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Contact</a></li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Services</a></li>
+                                <a className="nav-link" href={`/sponser`}>Sponser</a></li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Other</a>
                             </li>
                         </ul>
-                    </div>
-                    <div className="col-md-3 col-sm-12 col-xs-12 d-flex justify-content-end">
-                        <button className="btn btn-lg bg-primary">Register Now</button>
+                        <button className="btn bg-style">Register Now</button>
                     </div>
                 </div>
             </div>

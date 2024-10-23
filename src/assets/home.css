@@ -1,0 +1,11 @@
+.herosection{
+    height: 100vh;
+    background-color: red;
+    background-image: url('https://images.pexels.com/photos/9667551/pexels-photo-9667551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+.herosection2{
+    height: 100vh;
+    background-color: red;
+}

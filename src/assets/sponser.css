@@ -1,0 +1,8 @@
+.herosec{
+    background-color: green;
+    display: flex;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    ;
+}

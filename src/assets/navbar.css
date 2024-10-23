@@ -1,0 +1,20 @@
+
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    color: white;
+  }
+  .navbar .nav-item {
+    padding: 5px 5px;
+  }
+  .navbar .nav-link {
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+  }
+  .fa-bars {
+    color: white;
+    font-size: 30px;
+  }
+
+  
